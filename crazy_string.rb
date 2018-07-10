@@ -2,7 +2,7 @@
 
 def crazy_strings(a,b)
   "#{a} .upcase.reverse"
-  "#{b} .capital.swapcase"
+  "#{b} .capitalize.swapcase"
 end
 
 crazy_strings("Hello", "Friends")
